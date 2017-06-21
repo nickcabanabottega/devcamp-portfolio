@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/nickcabanabottega/cabana_view_tool
-  revision: 9c2bd65a82f7478c013564e85c6f150053745b73
-  specs:
-    cabana_view_tool (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -54,6 +48,7 @@ GEM
       sass (>= 3.4.19)
     builder (3.2.3)
     byebug (9.0.6)
+    cabana_view_tool (0.1.0)
     coffee-rails (4.2.2)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0)
@@ -184,7 +179,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap (~> 4.0.0.alpha6)
   byebug
-  cabana_view_tool!
+  cabana_view_tool (~> 0.1.0)
   coffee-rails (~> 4.2)
   devise (~> 4.3)
   friendly_id (~> 5.1.0)
